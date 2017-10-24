@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         GetExample example = new GetExample();
         String response = example.run(msg);
         //textview.append(response);
-    Log.d("msg", response);
+        Log.d("msg", response);
     }
 }
 
